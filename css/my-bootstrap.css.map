@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AAAA,IAAK;EACD,gBAAgB,EAAE,IAAI",
-"sources": ["my-bootstrap.scss"],
+"sources": ["../scss/my-bootstrap.scss"],
 "names": [],
 "file": "my-bootstrap.css"
 }
