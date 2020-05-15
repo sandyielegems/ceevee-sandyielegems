@@ -1,22 +1,28 @@
+// 1: overrides van default bootstrap voorkeuren
+$blue: white;
+// $font-family-sans-serif: "Raleway",
+// sans-serif;
+//
+// 2: laden van bootstrap (en compilen)
+@import "bootstrap/bootstrap";
+//
+// 3: eigen code:
+// body {
+//     // background: #ff6699;
+//     // color: #fff;
+//     /* font-family: "Lato"; */
+//     /* font-family: "Raleway"; */
+// }
 body {
-    background-color: pink;
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
 }
 
-#headerwrap {
-    background: url(../img/header-bg.jpg) no-repeat center top;
-    margin-top: 60px;
-    padding-top: 140px;
-    text-align: center;
-    background-attachment: relative;
-    background-position: center center;
-    min-height: 500px;
-    width: 100%;
-    background-size: 100%;
-    background-size: cover;
-}
-
-h1 {
-    font-size: 5rem;
+.navbar {
+    opacity: 0.9;
 }
 
 h1,
@@ -29,6 +35,67 @@ h6 {
     font-weight: 300;
 }
 
-jumbotron {
-    background-color: #ed528b;
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+#home-section {
+    background: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    text-align: center;
+}
+
+#home-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+
+#home-section .home-inner {
+    padding-top: 350px;
+}
+
+.parallax {
+    background-image: url("../img/header-bg.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-section h1 {
+    font-size: 80px;
+    color: white;
+}
+
+#home-section h3 {
+    font-size: 20px;
+    color: white;
+}
+
+#over-mij {
+    background: #ff6699;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+#over-mij h5,
+p {
+    color: white;
+}
+
+#over-mij i {
+    color: white;
+    font-size: 20px;
+    padding-right: 8px;
+    vertical-align: middle;
 }
