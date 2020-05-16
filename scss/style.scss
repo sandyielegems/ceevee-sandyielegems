@@ -1,18 +1,10 @@
 // 1: overrides van default bootstrap voorkeuren
 $blue: white;
-// $font-family-sans-serif: "Raleway",
-// sans-serif;
 //
 // 2: laden van bootstrap (en compilen)
 @import "bootstrap/bootstrap";
 //
 // 3: eigen code:
-// body {
-//     // background: #ff6699;
-//     // color: #fff;
-//     /* font-family: "Lato"; */
-//     /* font-family: "Raleway"; */
-// }
 body {
     background-color: #f2f2f2;
     font-family: "Lato";
@@ -99,3 +91,8 @@ p {
     padding-right: 8px;
     vertical-align: middle;
 }
+
+// .button:hover {
+//     background-color: #555555;
+//     color: white;
+// }
