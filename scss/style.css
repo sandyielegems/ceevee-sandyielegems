@@ -7829,7 +7829,8 @@ p {
   background-size: cover;
   background-attachment: fixed;
   min-height: 600px;
-  text-align: center; }
+  text-align: center;
+  background-position: center; }
 
 #home-section .overlay {
   position: absolute;
@@ -7858,17 +7859,17 @@ p {
   font-size: 20px;
   color: white; }
 
-#over-mij {
+#roos-vlak {
   background: #ff6699;
   padding-top: 40px;
   padding-bottom: 40px;
   color: white; }
 
-#over-mij h5,
+#roos-vlak h5,
 p {
   color: white; }
 
-#over-mij i {
+#roos-vlak i {
   color: white;
   font-size: 20px;
   padding-right: 8px;

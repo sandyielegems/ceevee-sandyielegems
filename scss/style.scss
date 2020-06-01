@@ -74,23 +74,37 @@ p {
     color: white;
 }
 
-#over-mij {
+#opleiding,
+#werk {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#roos-vlak {
     background: #ff6699;
     padding-top: 40px;
     padding-bottom: 40px;
     color: white;
 }
 
-#over-mij h5,
-p {
-    color: white;
-}
-
-#over-mij i {
+#roos-vlak i {
     color: white;
     font-size: 20px;
     padding-right: 8px;
     vertical-align: middle;
+}
+
+#softskills {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #555;
+    background-color: white;
+}
+
+#contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
 }
 
 // .button:hover {
